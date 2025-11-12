@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yana & Polo - Wedding Invitation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body>
+    <!-- Header -->
+    <header id="main-header">
+        <nav>
+            <div class="logo">[LOGO HERE]</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#story">Our Story</a></li>
+                <li><a href="#details">Wedding Details</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#rsvp">RSVP</a></li>
+                <li><a href="#faq">FAQs</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+
+            <h1>Yana <span class="ampersand">&</span> Polo</h1>
+            <p class="date">11-13-25</p>
+        </div>
+    </section>
+
+
+    <!-- Our Story Section -->
+    <section id="story">
+        <h2 class="section-title">We're getting married!</h2>
+        
+        <div class="story-container">
+            <div class="story-text">
+                <h3>Lorem Ipsum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="story-image">
+                [Photo Here]
+            </div>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-image">[Photo Here]</div>
+                <div class="timeline-content">
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-image">[Photo Here]</div>
+                <div class="timeline-content">
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-image">[Photo Here]</div>
+                <div class="timeline-content">
+                    <h4>Lorem Ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wedding Details Section -->
+    <section id="details">
+        <h2 class="section-title">Wedding Details</h2>
+        <div class="details-grid">
+            <div class="detail-card">
+                <h3>Ceremony</h3>
+                <p><strong>Date:</strong> [date]</p>
+                <p><strong>Time:</strong> [time]</p>
+                <p><strong>Location:</strong> [place]<br>[street]<br>Catanduanes</p>
+            </div>
+
+            <div class="detail-card">
+                <h3>Reception</h3>
+                <p><strong>Time:</strong> [time]</p>
+                <p><strong>Location:</strong> [place]<br>[street]<br>Catanduanes</p>
+                <p>[alt text]</p>
+            </div>
+
+            <div class="detail-card">
+                <h3>Dress Code</h3>
+                <p><strong>[attire]</strong></p>
+                <p>[attire text]</p>
+                <p>Ladies: [attire]<br>Gentlemen: [attire]</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2 class="section-title">Our Gallery</h2>
+        <div class="gallery-carousel">
+            <div class="carousel-container" id="carouselContainer">
+                <div class="carousel-card center">
+                    <img src="card-2.jpg" alt="">
+                </div>
+                <div class="carousel-card left">
+                    <img src="card-3.jpg" alt="">
+                </div>
+                <div class="carousel-card right">
+                    <img src="card-4.jpg" alt="">
+                </div>
+                <div class="carousel-card hidden">
+                    <img src="card-5.jpg" alt="">
+                </div>
+                <div class="carousel-card hidden">
+                    <img src="card-6.jpg" alt="">
+                </div>
+                <div class="carousel-card hidden">
+                    <img src="card-2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="carousel-controls">
+            <button class="carousel-btn" id="prevBtn">← Previous</button>
+            <button class="carousel-btn" id="nextBtn">Next →</button>
+        </div>
+    </section>
+
+    <!-- RSVP Section -->
+    <section id="rsvp">
+        <h2 class="section-title">RSVP</h2>
+        <div class="rsvp-form">
+            <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="guests">Number of Guests *</label>
+                <select id="guests" required>
+                    <option value="">Select...</option>
+                    <option value="1">1 Guest</option>
+                    <option value="2">2 Guests</option>
+                    <option value="3">3 Guests</option>
+                    <option value="4">4 Guests</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="attendance">Will you be attending? *</label>
+                <select id="attendance" required>
+                    <option value="">Select...</option>
+                    <option value="yes">Joyfully Accept</option>
+                    <option value="no">Regretfully Decline</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="dietary">Dietary Restrictions or Allergies</label>
+                <textarea id="dietary" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="message">Special Message for the Couple</label>
+                <textarea id="message" rows="4"></textarea>
+            </div>
+            <button type="submit" class="submit-btn" onclick="submitRSVP()">Submit RSVP</button>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <h4>What is the dress code?</h4>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <h4>What will your wedding be like?</h4>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <h4>Will the reception be held indoors or outdoors?</h4>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <h4>How many seats are reserved for me?</h4>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <h4>How will seating be arranged? </h4>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFAQ(this)">
+                    <h4>tanong ba to?</h4>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Dolor sit amet consectetur adipiscing elit quisque faucibus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Countdown Section -->
+    <div class="countdown-section">
+        <h2 class="countdown-title">Counting Down to Forever</h2>
+        <div class="countdown-timer" id="countdown">
+            <div class="countdown-item">
+                <div class="countdown-value" id="days">000</div>
+                <div class="countdown-label">Days</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-value" id="hours">00</div>
+                <div class="countdown-label">Hours</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-value" id="minutes">00</div>
+                <div class="countdown-label">Minutes</div>
+            </div>
+            <div class="countdown-item">
+                <div class="countdown-value" id="seconds">00</div>
+                <div class="countdown-label">Seconds</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>With love and gratitude,</p>
+        <p>Yana & Polo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
