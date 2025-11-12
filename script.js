@@ -88,7 +88,7 @@
         }
 
         // Countdown Timer
-        const weddingDate = new Date('June 15, 2026 16:00:00').getTime();
+        const weddingDate = new Date('May 11, 2026 15:00:00').getTime();
 
         function updateCountdown() {
             const now = new Date().getTime();
